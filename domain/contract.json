@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "分类师资发展计划",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "人事部门",
+    "教师",
+    "院系主管"
+  ],
+  "states": [
+    "建档",
+    "规划",
+    "审核",
+    "执行",
+    "复核"
+  ],
+  "invariants": [
+    "岗位能力模型",
+    "证据冻结",
+    "角色权限",
+    "资格复算"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-012-A",
+      "actor": "人事部门",
+      "state": "建档"
+    },
+    {
+      "case_id": "09301-012-B",
+      "actor": "院系主管",
+      "state": "规划"
+    }
+  ],
+  "tags": [
+    "faculty-development",
+    "competency-portfolio"
+  ]
+}
